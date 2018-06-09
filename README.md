@@ -54,6 +54,8 @@ Change to transparent light theme:
 @import url('theme/light-transparent.css');
 ```
 
+Note: To make sure the rest of your UI that is unstyled works well with the custom CSS, use the integrated dark theme when using `dark.css` and the integrated light theme when using `light.css`. For Firefox Addon themes, test both `dark-transparent.css` and `light-transparent.css` to see which works better.
+
 ## Uninstall
 
 Delete the `chrome` folder within your Firefox folder
