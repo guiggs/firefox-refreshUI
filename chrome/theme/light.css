@@ -1,0 +1,7 @@
+/* Light Theme */
+:root {
+    --main: #fefefe; /*selected tab and rest of navbar*/
+    --secondary: #e7e9ec; /* top background and all non-selected tabs*/
+    --search: #f0f2f3;
+    --hover: hsla(0, 0%, 80%, 0.2);
+}

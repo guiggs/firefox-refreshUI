@@ -1,0 +1,7 @@
+/* Dark Theme */
+:root {
+    --main: #323c46; /*selected tab and rest of navbar*/
+    --secondary: #b3b4c5; /* top background and all non-selected tabs*/
+    --search: #f0f0f0;
+    --hover: hsla(0, 0%, 80%, 0.2);
+}

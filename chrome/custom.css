@@ -1,0 +1,82 @@
+#navigator-toolbox:after,
+.scrollbutton-down,
+.scrollbutton-up {
+    display: none !important;
+}
+
+#toolbar-menubar {
+    height: 30px !important;
+    background-color: var(--secondary) !important;
+}
+
+#main-menubar * {
+    color: white !important;
+}
+
+#urlbar {
+    border-radius: 20px !important;
+    height: 28px !important;
+    border: none !important;
+    background-color: var(--search) !important;
+    color: black !important;
+    box-shadow: none !important;
+}
+
+#nav-bar {
+    background-color: var(--main) !important;
+    height: 37px !important;
+    box-shadow: none !important;
+}
+
+#TabsToolbar {
+    height: 36px !important;
+    background-color: var(--secondary) !important;
+}
+
+#main-window[sizemode='normal'] #TabsToolbar {
+    height: 54px !important;
+}
+
+#main-window[sizemode='normal'] #titlebar-buttonbox {
+    height: 29px !important;
+    margin-bottom: 14px !important;
+}
+
+#main-window[sizemode='normal'] .private-browsing-indicator {
+    margin-top: 18px !important;
+}
+
+#PersonalToolbar {
+    height: 30px !important;
+    background-color: var(--main) !important;
+}
+
+.toolbarbutton-badge-stack,
+toolbarbutton:not(.bookmark-item):not(.titlebar-button):not(.subviewbutton)
+    > .toolbarbutton-icon,
+.tab-close-button,
+.bookmark-item {
+    background: unset !important;
+    border-radius: 20px !important;
+    transition: background 0.25s ease-in-out !important;
+}
+
+toolbarbutton:hover .toolbarbutton-badge-stack,
+toolbarbutton:not([disabled]):not(.bookmark-item):not(.titlebar-button):not(.subviewbutton):hover
+    > .toolbarbutton-icon,
+.bookmark-item:hover {
+    background: var(--hover) !important; /*darken on hover*/
+}
+
+.browserContainer {
+    background-color: var(--main) !important;
+}
+
+#reload-button .toolbarbutton-icon {
+    overflow: visible !important;
+}
+
+#PanelUI-menu-button {
+    list-style-image: url('chrome://browser/skin/page-action.svg') !important;
+    transform: rotate(90deg);
+}
