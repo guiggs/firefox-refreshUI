@@ -64,4 +64,4 @@ Delete the `chrome` folder within your Firefox folder
 
 I have only tested this theme on Firefox Developer Edition 61.0b12 on Windows 10-1803. It may require extra tweaks to work on different versions of Firefox or different operating systems.
 
-If you have questions, problems, or want to contribute, please [submit an issue here](https://github.com/mnxn/Firefox-refreshUI/issues/new)
+If you have questions, problems, or want to contribute, please [submit an issue here](https://github.com/mnxn/Firefox-refreshUI/issues/new) or a [pull request here](https://github.com/mnxn/firefox-refreshUI/compare).
