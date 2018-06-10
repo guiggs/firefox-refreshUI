@@ -72,9 +72,13 @@ toolbarbutton:not([disabled]):not(.bookmark-item):not(.titlebar-button):not(.sub
     background-color: var(--main) !important;
 }
 
-#reload-button .toolbarbutton-icon {
-    overflow: visible !important;
+
+
+#reload-button > .toolbarbutton-icon{
+    border-radius: 8px !important;
 }
+
+
 
 #PanelUI-menu-button {
     list-style-image: url('chrome://browser/skin/page-action.svg') !important;
