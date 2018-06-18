@@ -24,6 +24,8 @@ You can also use it with themes (Using mart3ll's [Quantum Theme](https://addons.
 2.  Where it says `Profile Folder`, click on the `Open Folder` button
 3.  This should open your file manager in a Firefox specific directory, locate the `chrome` folder or create it if it doesn't already exist
 4.  Move all the files from inside the [chrome folder in this repo](chrome) to the `chrome` folder in your Firefox folder
+
+    Video link: https://streamable.com/njodh
 5.  Restart Firefox
 
 ## Configuration
