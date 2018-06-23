@@ -52,13 +52,20 @@ tabmodalprompt > spacer[flex='1'] {
 }
 
 
-.buttonContainer > button[label="OK"]{
+.buttonContainer > button[label="Leave Page"],
+.buttonContainer > button[label="OK"],
+.buttonContainer > button[label="Resend"]{
     background-color: rgb(67,133,242) !important;
     color: white !important;
     box-shadow: none !important;
-
-
 }
+
+.buttonContainer > button[label="Leave Page"] .button-text,
+.buttonContainer > button[label="OK"] .button-text,
+.buttonContainer > button[label="Resend"] .button-text{
+    color: white !important;
+}
+
 
 .buttonContainer > button:hover{
     box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75) !important;
