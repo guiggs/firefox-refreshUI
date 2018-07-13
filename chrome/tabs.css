@@ -103,3 +103,11 @@ last-visible-tab,
 .tab-content {
     overflow: hidden !important;
 }
+
+/* No flash on load */
+
+.tab-loading-burst {
+    display: none !important;
+}
+
+
